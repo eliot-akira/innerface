@@ -33,10 +33,10 @@ $base-font-size: 14px;
 Scripts
 
 ```ts
-import InnerFace from 'innerface'
-import Slider from 'innerface/slider'
+import innerface from 'innerface'
+import slider from 'innerface/slider'
 
-InnerFace.use(Slider)
+innerFace.use(slider)
 ```
 
 
