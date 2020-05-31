@@ -36,7 +36,7 @@ Scripts
 import innerface from 'innerface'
 import slider from 'innerface/slider'
 
-innerFace.use(slider)
+innerface.use(slider)
 ```
 
 

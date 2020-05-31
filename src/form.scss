@@ -93,6 +93,7 @@ input:-webkit-autofill { -webkit-box-shadow: 0 0 0 500px #ffffff inset; }
 // Full-width inputs with border
 select, textarea,
 input[type=text],
+input[type=number],
 input[type=password],
 input[type=email]
 {
@@ -128,7 +129,7 @@ select {
 
 select, .select-label {
   line-height: 1.75;
-  padding: $form-field-padding-y $form-field-padding-x;
+  padding: ($form-field-padding-y / 2) $form-field-padding-x;
 }
 
 select:not([multiple]), .select-label {
@@ -148,7 +149,7 @@ textarea {
 
 // Variations
 
-select.input-small {
+select.select-small {
   font-size: 90%;
   height: auto;
   padding: 0 ($form-field-padding-x / 2);

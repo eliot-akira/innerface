@@ -4,6 +4,9 @@ $link-hover-color: $blue !default;
 $link-text-decoration: none !default;
 $link-hover-text-decoration: underline !default;
 
+$link-color-on-dark: $light-gray !default;
+$link-hover-color-on-dark: $white !default;
+
 a {
   color: $link-color;
   text-decoration: $link-text-decoration;
@@ -17,4 +20,14 @@ a {
       color: $link-hover-color;
     }
   //}
+}
+
+.theme-dark {
+  a {
+    color: $link-color-on-dark;
+
+    &:hover, &:active, &:focus {
+      color: $link-hover-color-on-dark;
+    }
+  }
 }
